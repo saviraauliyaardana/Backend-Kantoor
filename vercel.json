@@ -1,11 +1,10 @@
 {
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }],
-
     "version": 2,
+    "name": "Backend-Kantoor",
     "builds": [
       {
         "src": "/index.ts",
-        "use": "@now/node"
+        "use": "@vercel/node"
       }
     ],
     "routes": [
